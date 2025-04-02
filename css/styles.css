@@ -18,19 +18,14 @@
     --dairy: #fcfcfc;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+* { 
 }
 
 body {
-    width: 1440px;
-    height: 3300px;
     background: #fff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -44,75 +39,70 @@ ul {
 }
 
 .header {
-    display: inline-flex;
-    margin-top: 24px;
-    margin-bottom: 24px;
 
 }
 
-.nav {
-    display: inline-flex;
+.nav { 
 
 }
 
 .a_header {
-    margin-left: 156px;
+    
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navy-blue);
+}
+
+.a_header:hover{
+    color: #404bbf;
+}
+
+.a_header:focus{
+    color: #404bbf;
 }
 
 .web {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: #4d5ae5;
 }
 
 .ul_header {
-
-    margin: 0;
-    display: inline-flex;
-    margin-left: 76px;
 }
 
 .ul_header>li>a {
     margin-right: 40px;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
 
-.address {
-    margin: 0;
-    margin-left: 204px;
+address {
+    font-style: normal;
+}
+
+address:hover{
+    color: #404bbf;
+}
+
+address:focus{
+    color: #404bbf;
 }
 
 .ul_address {
-    margin: 0;
-    margin-left: 244;
-
-    display: inline-flex;
-
 }
 
 .ul_address>li>a {
-    margin-left: 0;
     margin-right: 40px;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
@@ -122,20 +112,12 @@ ul {
 
 
 .section_main {
-    margin-top: 0;
-    width: 1440px;
-    height: 600px;
     background: var(--navy-blue);
 }
 
 .h1_main {
-    width: 496px;
-    padding-top: 188px;
-    margin-left: 472px;
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
@@ -143,60 +125,50 @@ ul {
 
 .btn_main {
     white-space: nowrap;
-    margin-top: 48px;
-    margin-left: 636px;
-    box-sizing: border-box;
     border: none;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
 
     background: var(--iris);
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
     letter-spacing: 0.04em;
     color: var(--white);
 }
 
+.btn_main:hover{
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.btn_main:focus{
+    background-color: #404BBF;
+    cursor: pointer;
+}
 
 
 
 
 
-.h2_advant {
-    display: none;
+
+.h2_advant { 
 }
 
 .ul_advant {
-    display: inline-flex;
-    margin-top: 120px;
-    margin-left: 156px;
 
 }
 
 .ul_advant>li {
-    margin-right: 24px;
-    width: 264px;
-    height: 104px;
 }
 
 .h3_advant {
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
 
 .p_advant {
-    margin-top: 8px;
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
@@ -207,62 +179,39 @@ ul {
 
 
 .section_ot {
-    margin-top: 120px;
     background: var(--cloud);
-    width: 1440px;
-    height: 732px;
 }
 
 .h2_ot {
-    padding-top: 120px;
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
 }
 
-.ul_ot {
-    margin-top: 72px;
-    margin-left: 156px;
-    display: inline-flex;
+.ul_ot { 
 }
 
 .ul_ot>li {
-    box-sizing: border-box;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
     border: none;
-    margin-right: 24px;
 }
 
 .img_ot {
-    margin-bottom: 32px;
 }
 
 .h3_ot {
-    padding-top: 0;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
 }
 
 .p_ot {
-    margin-top: 8px;
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--slate);
@@ -273,16 +222,11 @@ ul {
 
 
 .section_op {
-    width: 1128px;
-height: 1000px;
 }
 
 .h2_op {
-    margin-top: 120px;
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
@@ -290,51 +234,34 @@ height: 1000px;
 }
 
 .ul_op {
-    display: inline-flex;
 
 
     margin-bottom: 48px;
-    margin-left: 156px;
 
 }
 
 .ul_op>li {
     margin-right: 24px;
-    width: 360px;
-    height: 420px;
     background: var(--white);
 
 }
 
 .op_content {
-    border-bottom: 1px solid var(--cornflower);
-    border-left: 1px solid var(--cornflower);
-    border-right: 1px solid var(--cornflower);
-    padding: 32px 16px;
-    width: 360px;
-    height: 120px;
+
 }
 
 .img_op {
-    margin: 0;
-    padding: 0;
 }
 
 .h3_op {
-    font-family: var(--font-family);
     font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
 
 .p_op {
-    padding-top: 8px;
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
@@ -344,33 +271,21 @@ height: 1000px;
 
 
 .foot {
-    margin-top: 120px;
     background: var(--navy-blue);
-    width: 1440px;
-height: 312px;
-padding-top: 100px;
 }
 
 .a_foot {
-    margin-left: 156px;
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--cloud);
 }
 
 .p_foot {
-    width: 264px;
-    height: 72px;
-    margin-top: 16px;
-    margin-left: 156px;
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--cloud);
     
