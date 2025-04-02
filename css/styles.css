@@ -121,11 +121,14 @@ address:focus{
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
+    
+    line-height: 1.7;
 }
 
 .btn_main {
     white-space: nowrap;
     border: none;
+    line-height: 1.5;
 
     background: var(--iris);
     font-weight: 500;
@@ -150,6 +153,7 @@ address:focus{
 
 
 .h2_advant { 
+    line-height: 1.2;
 }
 
 .ul_advant {
@@ -171,6 +175,7 @@ address:focus{
     font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--slate);
+    line-height: 1.5;
 }
 
 
@@ -183,6 +188,8 @@ address:focus{
 }
 
 .h2_ot {
+    line-height: 1.11;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -202,6 +209,7 @@ address:focus{
 }
 
 .h3_ot {
+    line-height: 1.2;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -210,6 +218,7 @@ address:focus{
 }
 
 .p_ot {
+    line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -275,12 +284,19 @@ address:focus{
 }
 
 .a_foot {
+
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud);
+    color: #4d5ae5;
+}
+
+.a_foot>span{
+    line-height: 1.17;
+    color: #f4f4fd;
+    
 }
 
 .p_foot {
