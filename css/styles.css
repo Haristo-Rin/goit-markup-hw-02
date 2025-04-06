@@ -200,11 +200,11 @@ address{
 
 /* section_3 */
 
-.section_oteam {
+.oteam_section {
     background: #f4f4fd;
 }
 
-.h2_oteam {
+.oteam_h2 {
     line-height: 1.11;
     text-transform: capitalize;
     font-weight: 700;
@@ -214,18 +214,18 @@ address{
     color: #2e2f42;
 }
 
-.ul_oteam { 
+.oteam_ul { 
 }
 
-.ul_oteam>li {
+.oteam_ul>li {
     background: #fff;
     border: none;
 }
 
-.img_oteam {
+.oteam_img {
 }
 
-.h3_oteam {
+.oteam_h3 {
     line-height: 1.2;
     font-weight: 500;
     font-size: 20px;
@@ -234,7 +234,7 @@ address{
     color: #2e2f42;
 }
 
-.p_oteam {
+.oteam_p {
     line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
