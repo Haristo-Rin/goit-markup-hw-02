@@ -166,25 +166,26 @@ address{
 
 /* section_2 */
 
-.h2_advant { 
+.advant_h2 { 
     line-height: 1.2;
 }
 
-.ul_advant {
+.advant_ul {
 
 }
 
-.ul_advant>li {
+.advant_ul>li {
 }
 
-.h3_advant {
+.advant_h3 {
+    line-height: 1.2;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.p_advant {
+.advant_p {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
