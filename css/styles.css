@@ -37,11 +37,7 @@ ul {
     list-style: none;
 }
 
-.header {
-
-}
-
-.nav { 
+nav { 
 
 }
 /* header */
@@ -118,8 +114,7 @@ address{
     font-style: normal;
 }
 
-.ul_address {
-}
+
 
 .ul_address>li>a {
     margin-right: 40px;
@@ -170,12 +165,7 @@ address{
     line-height: 1.2;
 }
 
-.advant_ul {
 
-}
-
-.advant_ul>li {
-}
 
 .advant_h3 {
     line-height: 1.2;
@@ -214,16 +204,12 @@ address{
     color: #2e2f42;
 }
 
-.oteam_ul { 
-}
 
 .oteam_ul>li {
     background: #fff;
     border: none;
 }
 
-.oteam_img {
-}
 
 .oteam_h3 {
     line-height: 1.2;
@@ -250,47 +236,38 @@ address{
 
 /* section_4 */
 
-.section_op {
-}
 
-.h2_op {
-    font-weight: 700;
+
+.oportfolio_h2 {
     font-size: 36px;
-    letter-spacing: 0.02em;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
 }
 
-.ul_op {
 
 
-    margin-bottom: 48px;
-
-}
-
-.ul_op>li {
+.oportfolio_ul>li {
     margin-right: 24px;
     background: #fff;
 
 }
 
-.op_content {
 
-}
 
-.img_op {
-}
-
-.h3_op {
+.oportfolio_h3 {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.p_op {
-    font-weight: 400;
+.oportfolio_p {
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -304,7 +281,7 @@ address{
 }
 
 .a_foot {
-
+    line-height: 1.17;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -320,6 +297,7 @@ address{
 }
 
 .p_foot {
+    line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
