@@ -129,7 +129,7 @@ address{
     background-color: #2e2f42;
 }
 
-.main_h1 {
+.main_h-one {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -161,13 +161,13 @@ address{
 
 /* section_2 */
 
-.advant_h2 { 
+.advant_h-two { 
     line-height: 1.2;
 }
 
 
 
-.advant_h3 {
+.advant_h-thre {
     line-height: 1.2;
     font-weight: 500;
     font-size: 20px;
@@ -194,7 +194,7 @@ address{
     background: #f4f4fd;
 }
 
-.oteam_h2 {
+.oteam_h-two {
     line-height: 1.11;
     text-transform: capitalize;
     font-weight: 700;
@@ -211,7 +211,7 @@ address{
 }
 
 
-.oteam_h3 {
+.oteam_h-thre {
     line-height: 1.2;
     font-weight: 500;
     font-size: 20px;
@@ -238,7 +238,7 @@ address{
 
 
 
-.oportfolio_h2 {
+.oportfolio_h-two {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -257,7 +257,7 @@ address{
 
 
 
-.oportfolio_h3 {
+.oportfolio_h-thre {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
